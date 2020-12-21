@@ -12,7 +12,7 @@
   position: fixed;
   top: 0;
   padding: 0px 40px 40px 40px;
-  color: #f1f1f1;
+  color: white;
   width: 100%;
   text-align: center;
   font-size: xx-large;
@@ -24,7 +24,7 @@
   opacity: 0.8;
 }
 
-h1 {
+#heyThere {
   padding-top: 7rem;
 }
 
@@ -34,6 +34,6 @@ h1 {
   padding: none;
 }
 
-a:visited {
+#signIn:visited {
   color: white;
 }

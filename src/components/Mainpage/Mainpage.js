@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Mainpage.css";
+import "./MainPage.css";
 
-function Mainpage() {
+function MainPage() {
   return (
     <div id="myVideo">
       <mask id="mask">
@@ -17,7 +17,7 @@ function Mainpage() {
             <p>Sign In</p>
           </Link>
         </div>
-        <h1>Hey there, LakeLifers!</h1>
+        <h1 id="heyThere">Hey there, LakeLifers!</h1>
         <h4>
           <em>Welcome to your site!</em>
         </h4>
@@ -26,4 +26,4 @@ function Mainpage() {
   );
 }
 
-export default Mainpage;
+export default MainPage;
