@@ -1,0 +1,39 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  top: 0;
+  padding: 0px 40px 40px 40px;
+  color: #f1f1f1;
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Indie Flower", cursive;
+}
+
+#mask {
+  color: rgb(163, 160, 148);
+  opacity: 0.8;
+}
+
+h1 {
+  padding-top: 7rem;
+}
+
+#signIn {
+  float: left;
+  text-decoration: none;
+  padding: none;
+}
+
+a:visited {
+  color: white;
+}
