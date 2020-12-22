@@ -12,12 +12,6 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/login">
-          <LoginPage />
-        </Route>
-        <Route path="/">
-          <MainPage />
-        </Route>
         <Route path="/gallery">
           <Gallery />
         </Route>
@@ -29,6 +23,12 @@ function App() {
         </Route>
         <Route path="/leaderboard">
           <Leaderboard />
+        </Route>
+        <Route path="/login">
+          <LoginPage />
+        </Route>
+        <Route path="/">
+          <MainPage />
         </Route>
       </Switch>
     </Router>
