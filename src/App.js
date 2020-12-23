@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import MainPage from "./components/MainPage/MainPage";
+// import MainPage from "./components/MainPage/MainPage";
 import LoginPage from "./components/auth/LoginPage";
 import Gallery from "./components/Gallery/Gallery";
 import Guestbook from "./components/Guestbook/Guestbook";
@@ -28,7 +28,8 @@ function App() {
           <LoginPage />
         </Route>
         <Route path="/">
-          <MainPage />
+          {/* <MainPage /> */}
+          Hello
         </Route>
       </Switch>
     </Router>

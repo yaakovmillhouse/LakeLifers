@@ -32,6 +32,7 @@
   float: left;
   text-decoration: none;
   padding: none;
+  color: white;
 }
 
 #signIn:visited {
