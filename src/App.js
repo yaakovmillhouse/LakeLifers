@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import MainPage from "./components/MainPage/MainPage";
 import LoginPage from "./components/auth/LoginPage";
 import Gallery from "./components/Gallery/Gallery";
 import Guestbook from "./components/Guestbook/Guestbook";
 import Recipebook from "./components/Recipebook/Recipebook";
 import Leaderboard from "./components/Leaderboard/Leaderboard";
+import MainPage from "./components/MainPage/MainPage";
 import "./App.css";
 
 function App() {
@@ -28,8 +28,7 @@ function App() {
           <LoginPage />
         </Route>
         <Route path="/">
-          {/* <MainPage /> */}
-          Hello
+          <MainPage />
         </Route>
       </Switch>
     </Router>
