@@ -5,7 +5,7 @@ import Gallery from "./components/Gallery/Gallery";
 import Guestbook from "./components/Guestbook/Guestbook";
 import Recipebook from "./components/Recipebook/Recipebook";
 import Leaderboard from "./components/Leaderboard/Leaderboard";
-import MainPage from "./components/MainPage/MainPage";
+import MainPage1 from "./components/MainPage1/MainPage1";
 import "./App.css";
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
           <LoginPage />
         </Route>
         <Route path="/">
-          <MainPage />
+          <MainPage1 />
         </Route>
       </Switch>
     </Router>

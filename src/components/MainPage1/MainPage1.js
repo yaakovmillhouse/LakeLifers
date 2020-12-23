@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./MainPage.css";
 
-function MainPage() {
+function MainPage1() {
   return (
     <div id="myVideo">
       <mask id="mask">
@@ -26,4 +26,4 @@ function MainPage() {
   );
 }
 
-export default MainPage;
+export default MainPage1;
