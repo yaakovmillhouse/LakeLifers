@@ -15,15 +15,12 @@ export default class LoginPage extends React.Component {
           <Link to="/gallery">
             <p>Gallery</p>
           </Link>
-          <br></br>
           <Link to="/guestbook">
             <p>Guest Book</p>
           </Link>
-          <br></br>
           <Link to="/recipebook">
             <p>Recipe Book</p>
           </Link>
-          <br></br>
           <Link to="/leaderboard">
             <p>Leaderboard</p>
           </Link>
