@@ -13,7 +13,7 @@ function MainPage1() {
 
       <div className="content">
         <div id="entry">
-          <Link to="/login" id="signIn">
+          <Link to="/dashboard" id="signIn">
             <p>Sign In</p>
           </Link>
         </div>

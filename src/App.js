@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Dashboard from "./components/Dashboard/Dashboard";
 import LoginPage from "./components/auth/LoginPage";
 import Gallery from "./components/Gallery/Gallery";
 import Guestbook from "./components/Guestbook/Guestbook";
@@ -12,6 +13,9 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/dashboard">
+          <Dashboard />
+        </Route>
         <Route path="/gallery">
           <Gallery />
         </Route>
