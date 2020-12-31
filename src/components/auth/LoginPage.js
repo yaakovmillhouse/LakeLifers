@@ -35,6 +35,8 @@ export default class LoginPage extends React.Component {
       { el: this.loginContainer },
       (response) => {
         this.setState({ user: response.claims.email });
+        // redirects to dashboard
+        this.props.history.push("/dashboard");
       },
       (err) => {
         console.log(err);
