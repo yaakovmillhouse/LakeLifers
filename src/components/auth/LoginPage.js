@@ -7,9 +7,9 @@ export default class LoginPage extends React.Component {
     super();
     this.state = { user: null };
     this.widget = new OktaSignIn({
-      baseUrl: "https://dev-6424298.okta.com",
-      clientId: "0oa38mbds8OPKiEp15d6",
-      redirectUri: "https://lakelifers.herokuapp.com/dashboard",
+      baseUrl: process.env.REACT_APP_DEVURL,
+      clientId: process.env.REACT_APP_CLIENTID,
+      redirectUri: process.env.REACT_APP_REDIRECTURI,
       authParams: {
         responseType: "id_token",
       },
