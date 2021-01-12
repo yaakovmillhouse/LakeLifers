@@ -1,1 +1,3 @@
 # LakeLifers
+
+This app is desigend to be a tool for scheduling and planning visits to the Millhouse-Deck-Floyd Lake House in Lake Gaston, NC. An in-progress endeavor, the final vision includes giving admins power to create a "Visit" - an event to which specific guest can be invited to collaborate on scheduling arrivals, departures, and activities. Additional features include photo/video galleries, a "Guest Book", and a Recipe book, all of which guests will be able to contribute materials. The site will be authenticated by Okta sign-in in order to protect events, pictures, and other items posted to the site.
