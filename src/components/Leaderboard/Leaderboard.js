@@ -32,7 +32,7 @@ function Leaderboard() {
         <p>Score: Utter Devastation</p>
         <p>
           Quote of the game:{" "}
-          <em>"James, you need to think about selling him that property..."</em>{" "}
+          <em>"James, you need to think about selling him that property..."</em>
           - David Millhouse to James Millhouse right before selling Park Place
           to match Jake's Boardwalk
         </p>
